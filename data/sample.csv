@@ -1,0 +1,16 @@
+id,name,age,department,salary,years_experience
+1,Alice Johnson,28,Engineering,75000,4
+2,Bob Smith,35,Marketing,68000,8
+3,Carol White,42,Engineering,95000,15
+4,David Brown,31,Sales,62000,6
+5,Eve Davis,29,Engineering,78000,5
+6,Frank Miller,45,Marketing,72000,18
+7,Grace Lee,33,Engineering,88000,9
+8,Henry Wilson,38,Sales,71000,12
+9,Iris Taylor,27,Marketing,58000,3
+10,Jack Anderson,50,Engineering,105000,22
+11,Kate Martinez,26,Sales,54000,2
+12,Leo Garcia,41,Engineering,92000,16
+13,Mia Rodriguez,30,Marketing,65000,7
+14,Noah Lopez,36,Sales,69000,10
+15,Olivia Gonzalez,32,Engineering,85000,8
