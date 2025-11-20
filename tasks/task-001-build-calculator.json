@@ -1,0 +1,15 @@
+{
+  "id": "task-001",
+  "title": "Build Simple Calculator",
+  "description": "Create a Python calculator module with basic operations (add, subtract, multiply, divide). Include unit tests.",
+  "status": "open",
+  "claimed_by": null,
+  "created_at": "2025-11-20T00:38:56Z",
+  "updated_at": "2025-11-20T00:38:56Z",
+  "priority": "medium",
+  "dependencies": [],
+  "deliverables": [
+    "src/calculator.py",
+    "tests/test_calculator.py"
+  ]
+}
