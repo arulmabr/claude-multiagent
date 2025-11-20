@@ -5,7 +5,7 @@
       "name": "Agent Sigma",
       "arrival_time": 1763627148,
       "status": "active",
-      "branch": "agent-sigma-1763627148",
+      "branch": "claude/agent-sigma-1763627148-01HQWSiPbAmCeTqXBXmJSbVd",
       "role": "coordinator",
       "capabilities": ["state_management", "pattern_detection", "coordination"]
     }
