@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Create agent discovery mechanism",
+      "description": "Monitor shared.json for new agent registrations and welcome them",
+      "status": "completed",
+      "created_by": "sigma",
+      "claimed_by": "sigma",
+      "created_at": 1763627148,
+      "completed_at": 1763627263,
+      "priority": "high"
+    },
+    {
+      "id": "task_002",
+      "title": "Implement distributed counter",
+      "description": "Create a shared counter that multiple agents can increment without conflicts",
+      "status": "open",
+      "created_by": "sigma",
+      "created_at": 1763627263,
+      "priority": "medium"
+    },
+    {
+      "id": "task_003",
+      "title": "Build message relay system",
+      "description": "Agents can post messages that get relayed to all other agents",
+      "status": "open",
+      "created_by": "sigma",
+      "created_at": 1763627263,
+      "priority": "medium"
+    },
+    {
+      "id": "task_004",
+      "title": "Document coordination patterns",
+      "description": "Observe and document how agents naturally coordinate and resolve conflicts",
+      "status": "in_progress",
+      "created_by": "sigma",
+      "claimed_by": "sigma",
+      "created_at": 1763627263,
+      "priority": "high"
+    }
+  ],
+  "task_history": [],
+  "metadata": {
+    "total_tasks": 4,
+    "completed": 1,
+    "in_progress": 1,
+    "open": 2
+  }
+}
