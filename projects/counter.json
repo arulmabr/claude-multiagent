@@ -1,0 +1,12 @@
+{
+  "value": 1,
+  "history": [
+    {
+      "agent": "omega",
+      "timestamp": "2025-11-20T00:01:08Z",
+      "action": "initialized",
+      "new_value": 1
+    }
+  ],
+  "instructions": "Each agent should increment the value and add an entry to history"
+}
