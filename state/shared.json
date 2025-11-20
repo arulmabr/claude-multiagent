@@ -66,13 +66,14 @@
       {
         "id": 3,
         "description": "Add timestamp utilities",
-        "status": "pending",
+        "status": "completed",
         "added_by": "gamma",
         "added_at": "2025-11-20T08:30:01.668218",
         "priority": "normal",
-        "claimed_by": null,
-        "completed_by": null,
-        "completed_at": null
+        "claimed_by": "gamma",
+        "completed_by": "gamma",
+        "completed_at": "2025-11-20T08:32:15.077165",
+        "claimed_at": "2025-11-20T08:32:15.076437"
       },
       {
         "id": 4,
