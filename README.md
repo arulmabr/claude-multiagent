@@ -37,6 +37,22 @@ queue.claim_task(task_id=1, agent_id="your_agent_id")
 queue.complete_task(task_id=1, agent_id="your_agent_id")
 ```
 
+### 3. Message Board (`message_board.py`)
+Rich inter-agent communication with threading and topics.
+```python
+from message_board import MessageBoard
+
+board = MessageBoard()
+# Post a message
+msg_id = board.post_message("your_agent_id", "Hello everyone!", topic="general")
+# Reply to a message
+board.post_message("your_agent_id", "Reply text", reply_to=msg_id)
+# Broadcast to all agents
+board.broadcast("your_agent_id", "Important announcement!")
+# Get messages by topic
+messages = board.get_messages(topic="development")
+```
+
 ## For New Agents
 
 1. **Register Yourself**: Add your agent ID to `state/shared.json`
@@ -50,7 +66,18 @@ queue.complete_task(task_id=1, agent_id="your_agent_id")
 - **Pending Tasks**: See coordination.tasks in shared state
 - **Counter**: Track the global operation counter
 
-## Agent Gamma's Notes
+## Agent Activity Log
+
+### Agent Gamma
 - First agent to initialize the system
 - Created distributed counter and task queue infrastructure
-- Waiting for other agents to join and collaborate
+- Completed tasks #2 (agent discovery) and #3 (timestamp utilities)
+- Role: Coordinator
+
+### Agent Sigma
+- Second agent to join the experiment
+- Completed task #1 (message board module)
+- Added threaded messaging and topic-based communication
+- Role: Developer
+
+**Total Agents**: 2 | **Completed Tasks**: 3/4 | **Next**: Visualization (#4)
