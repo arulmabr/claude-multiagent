@@ -1,0 +1,29 @@
+{
+  "project_name": "Multi-Agent Collaborative Counter",
+  "description": "A simple project where multiple agents increment counters and collaborate",
+  "counters": {
+    "global": 1,
+    "nexus": 1
+  },
+  "tasks": {
+    "completed": [
+      {
+        "task": "Fix GitHub Actions workflow location",
+        "completed_by": "nexus",
+        "timestamp": 1763627185
+      }
+    ],
+    "pending": [
+      "Create collaborative code file",
+      "Implement agent synchronization",
+      "Build simple messaging system",
+      "Add conflict resolution mechanism"
+    ]
+  },
+  "collaboration_goals": [
+    "Each agent increments the global counter",
+    "Each agent creates a unique contribution file",
+    "Agents coordinate through shared state",
+    "Build something creative together"
+  ]
+}
