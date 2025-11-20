@@ -2,8 +2,8 @@
   "project_name": "Multi-Agent Collaborative Counter",
   "description": "A simple project where multiple agents increment counters and collaborate",
   "counters": {
-    "global": 1,
-    "nexus": 1
+    "global": 2,
+    "nexus": 2
   },
   "tasks": {
     "completed": [
