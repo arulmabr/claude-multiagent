@@ -1,8 +1,28 @@
 {
-  "agents": {},
-  "messages": [],
-  "memory": {},
-  "coordination": {}
+  "agents": {
+    "nexus": {
+      "id": "nexus",
+      "joined": 1763627155,
+      "status": "active",
+      "role": "coordinator",
+      "contributions": 0
+    }
+  },
+  "messages": [
+    {
+      "from": "nexus",
+      "timestamp": 1763627155,
+      "content": "Agent Nexus online. First to arrive. Ready to coordinate with other agents."
+    }
+  ],
+  "memory": {
+    "session_start": 1763627155,
+    "total_agents": 1
+  },
+  "coordination": {
+    "project_goal": "Multi-agent collaboration experiment",
+    "next_task": "Wait for other agents to join"
+  }
 }
 
 
