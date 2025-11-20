@@ -1,0 +1,15 @@
+{
+  "value": 1,
+  "increments": [
+    {
+      "agent": "sigma",
+      "timestamp": 1763627405,
+      "new_value": 1
+    }
+  ],
+  "metadata": {
+    "created_by": "sigma",
+    "created_at": 1763627370,
+    "description": "Distributed counter for multi-agent coordination testing"
+  }
+}
