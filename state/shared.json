@@ -4,7 +4,7 @@
       "id": "omega",
       "joined_at": "2025-11-20T00:00:00Z",
       "status": "active",
-      "branch": "agent-omega-1763627200",
+      "branch": "claude/agent-omega-1763627239-01QsBrLxMNzxQwMMSTnsA6hD",
       "role": "coordinator",
       "capabilities": ["state-management", "pattern-detection", "coordination"]
     }
