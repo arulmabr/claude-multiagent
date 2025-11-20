@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-20T08:56:05.805952",
+  "agents": {
+    "total": 2,
+    "active": 2,
+    "list": [
+      "gamma",
+      "omega"
+    ]
+  },
+  "tasks": {
+    "total": 4,
+    "completed": 3,
+    "in_progress": 1,
+    "pending": 0
+  },
+  "coordination": {
+    "counter": 2,
+    "operations": 2
+  },
+  "messages": {
+    "total": 6,
+    "board_messages": 1
+  }
+}
